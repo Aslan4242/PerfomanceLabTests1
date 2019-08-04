@@ -36,8 +36,7 @@ public class Test4 {
         LinkedHashMap<Date[], Integer> periods = new LinkedHashMap<>();
 
         for (long i = start.getTime(); i <= end.getTime(); i += 60000) {
-            //  System.out.println(new Date(i));
-            int previousCountVisitor = countVisitor;
+                 int previousCountVisitor = countVisitor;
             for (int j = 0; j < list.size(); j++) {
                 String[] time1 = list.get(j).split("\\s+");
                 Date dateStart = simpleDateFormat.parse(time1[0]);
