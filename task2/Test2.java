@@ -1,5 +1,3 @@
-package test2;
-
 import javafx.scene.shape.Polygon;
 import java.io.BufferedReader;
 import java.io.FileReader;
